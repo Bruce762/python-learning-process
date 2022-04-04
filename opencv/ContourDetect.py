@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('D:\workfile\python\opencv\shape.jpg')
+img = cv2.imread('C:\python\opencv\shape.jpg')
 img = cv2.resize(img,(0,0), fx=0.5, fy=0.5)
 imgContour = img.copy()
 img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
